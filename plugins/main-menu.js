@@ -40,12 +40,11 @@ const defaultMenu = {
 
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
-    let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
-    let { exp, estrellas, level, role } = global.db.data.users[m.sender]
+    let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => '{}')) || {}
+    let user = global.db.data.users[m.sender] || {}
+    let { exp = 0, estrellas = 0, level = 0, role = 'Aldeano' } = user
     let { min, xp, max } = xpRange(level, global.multiplier)
     let name = await conn.getName(m.sender)
-    exp = exp || 0
-    role = role || 'Aldeano'
     let d = new Date(new Date + 3600000)
     let locale = 'es'
     let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -63,18 +62,22 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     let muptime = clockString(_muptime)
     let uptime = clockString(_uptime)
     let totalreg = Object.keys(global.db.data.users).length
-    let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
-    let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(plugin => {
+    let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered).length
+    let help = Object.values(global.plugins).filter(p => p && !p.disabled).map(plugin => {
       return {
-        help: Array.isArray(plugin.help) ? plugin.help : [plugin.help],
-        tags: Array.isArray(plugin.tags) ? plugin.tags : [plugin.tags],
+        help: Array.isArray(plugin.help) ? plugin.help : plugin.help ? [plugin.help] : [],
+        tags: Array.isArray(plugin.tags) ? plugin.tags : plugin.tags ? [plugin.tags] : [],
         prefix: 'customPrefix' in plugin,
         estrellas: plugin.estrellas,
         premium: plugin.premium,
         enabled: !plugin.disabled,
       }
     })
-    for (let plugin of help) if (plugin && 'tags' in plugin) for (let tag of plugin.tags) if (!(tag in tags) && tag) tags[tag] = tag
+    for (let plugin of help) {
+      if (plugin && plugin.tags) {
+        for (let tag of plugin.tags) if (!(tag in tags) && tag) tags[tag] = tag
+      }
+    }
     let before = defaultMenu.before
     let header = defaultMenu.header
     let body = defaultMenu.body
@@ -84,9 +87,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       before,
       ...Object.keys(tags).map(tag => {
         return header.replace(/%category/g, tags[tag]) + '\n' + [
-          ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
-            return menu.help.map(help => {
-              return body.replace(/%cmd/g, menu.prefix ? help : _p + help).trim()
+          ...help.filter(menu => menu.tags.includes(tag) && menu.help.length).map(menu => {
+            return menu.help.map(cmd => {
+              return body.replace(/%cmd/g, menu.prefix ? cmd : _p + cmd).trim()
             }).join('\n')
           }),
           footer
@@ -124,7 +127,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     await conn.sendMessage(m.chat, { video: { url: vid }, caption: text.trim(), contextInfo: { mentionedJid: [m.sender] }, gifPlayback: true, gifAttribution: 0 }, { quoted: m })
   } catch (e) {
-    conn.reply(m.chat, `❌️ Lo sentimos, el menú tiene un error ${e.message}`, m)
+    conn.reply(m.chat, `❌️ Ocurrió un error en el menú\n${e.message}`, m)
     throw e
   }
 }
