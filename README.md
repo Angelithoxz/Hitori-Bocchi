@@ -1,4 +1,4 @@
-<h1 align="center">✦ Yυƙι Sυσυ ✦</h1>
+<h1 align="center">✦ Bocchi Hitori✦</h1>
 
 <img src= "https://files.catbox.moe/om9jai.jpg">
 </p>
