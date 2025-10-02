@@ -9,7 +9,7 @@ Este proyecto **no está afiliado de ninguna manera** con `WhatsApp`, `Inc. What
 <details>
 <summary><b> ➮ Descripción</b></summary>
 
-Yuki Bot es un bot de WhatsApp multifuncional basado en `baileys`. Este bot ofrece una variedad de características para mejorar tu experiencia en WhatsApp.
+Hitori Bocchi es un bot de WhatsApp multifuncional basado en `baileys`. Este bot ofrece una variedad de características para mejorar tu experiencia en WhatsApp.
 
 #### Características
 Configuración avanzada de grupos 
@@ -40,7 +40,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/The-King-Destroy/YukiBot-MD && cd YukiBot-MD
+git clone https://github.com/Angelithoxz/Hitori-Bocchi && cd Hitori-Bocchi 
 ```
 ```bash
 yarn install
@@ -57,7 +57,7 @@ npm start
 <details>
   <summary><b>🜸 Comandos para mantener más tiempo activo el Bot</b></summary>
 
-> *Ejecutar estos comandos dentro de la carpeta YukiBot-MD*
+> *Ejecutar estos comandos dentro de la carpeta Hitori-Bocchi*
 ```bash
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
@@ -82,28 +82,28 @@ pm2 start index
 ### En caso de detenerse
 > _Si despues que ya instalastes el bot y termux te salta en blanco, se fue tu internet o reiniciaste tu celular, solo realizaras estos pasos:_
 ```bash
-cd && cd YukiBot-MD && npm start
+cd && cd Hitori-Bocchi && npm start
 ```
 ----
 ### Obtener nuevo código QR 
-> *Detén el bot, haz click en el símbolo (ctrl) [default=z] usar la letra "z" + "ENTER" hasta que salga algo verdes similar a: `YukiBot-MD $`*
+> *Detén el bot, haz click en el símbolo (ctrl) [default=z] usar la letra "z" + "ENTER" hasta que salga algo verdes similar a: `Hitori-Bocchi $`*
 > **Escribe los siguientes comandos uno x uno :**
 ```bash 
-cd && cd YukiBot-MD && rm -rf sessions/Principal && npm run qr
+cd && cd Hitori-Bocchi && rm -rf sessions/Principal && npm run qr
 ```
 ----
 ### Obtener nuevo código de teléfono 
 ```bash 
-cd && cd YukiBot-MD && rm -rf sessions/Principal && npm run code
+cd && cd Hitori-Bocchi && rm -rf sessions/Principal && npm run code
 ```
 </details>
 
 <details>
-<summary><b>❀ Actualizar YukiBot-MD</b></summary>
+<summary><b>❀ Actualizar Bocchi Hitori</b></summary>
 
-> **Utiliza esta opción únicamente si deseas actualizar a la última versión de YukiBot. Hemos implementado un método ingenioso mediante comandos para realizar la actualización, pero ten en cuenta que al usarla se eliminarán todos los archivos de la versión actual y se reemplazarán con los de la nueva versión. Solo se conservará la base de datos, por lo que será necesario volver a vincular el Bot.**  
+> **Utiliza esta opción únicamente si deseas actualizar a la última versión de Bocchi Hitori. Hemos implementado un método ingenioso mediante comandos para realizar la actualización, pero ten en cuenta que al usarla se eliminarán todos los archivos de la versión actual y se reemplazarán con los de la nueva versión. Solo se conservará la base de datos, por lo que será necesario volver a vincular el Bot.**  
 
-**Comandos para actualizar YukiBot-MD de forma automática**
+**Comandos para actualizar Bocchi Hitori de forma automática**
 
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/DevAlexJs/SakuraBot-MD/master/termux.sh | bash 
@@ -113,9 +113,9 @@ grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https:/
 *Si después de instalar el bot e iniciar la sesión (deseas poner tu número es la lista de owner pon este comando:*
 
 ```bash
-cd && cd YukiBot-MD && nano settings.js
+cd && cd Hitori-Bocchi && nano settings.js
 ```
-#### Para que no pierda su progreso en YukiBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
+#### Para que no pierda su progreso en Bocchi Hitori, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 > *Estos comandos solo funcionan para TERMUX, REPLIT, LINUX*
 </details>
 
@@ -125,53 +125,15 @@ cd && cd YukiBot-MD && nano settings.js
 <details>
 <summary><b> 🜸 Enlaces Oficiales </b></summary>
 
- * Canal Oficial  [`¡Click aquí!`](https://whatsapp.com/channel/0029Vb64nWqLo4hb8cuxe23n)
-* Grupo Oficial [`¡Click aquí!`](https://chat.whatsapp.com/HaKf6ezcwdbGzmH782eBal)
-* Comunidad Oficial [`¡Click aquí!`](https://chat.whatsapp.com/BgIcqDiiTEmL5ChFpq76y0?mode=ems_copy_t)
+ * Canal Oficial  [`¡Click aquí!`](https://whatsapp.com/channel/0029Vaz6RTR0LKZIKwudX32x)
+* Grupo Oficial [`¡Click aquí!`](https://chat.whatsapp.com/LEiFW5QqrPE1xYYCqyZeqq?mode=ems_copy_t)
 </details>
 
 <details>
 <summary><b> ✰ Contáctos</b></summary>
 
-* WhatsApp: [`Aquí`](https://wa.me/522202410659)
-* Correo: [`Aquí`](thekingdestroy507@gmail.com)
-</details>
-
----
-
-### **` °¤ BOXMINEWORLD ¤°`**
-
-<a href="https://boxmineworld.com">
-  <img width="125px" src="https://i.imgur.com/allAyd4.png"/>
-</a>
-
-<details>
- <summary><b> ❒ Servidor BoxMineWorld</b></summary>
-
-* Pagina Oficial: [`Boxmineworld`](https://boxmineworld.com)
-* Tutorial - Crear cuenta en la Dashboard: [`Dashboard`](https://www.youtube.com/watch?v=ZAwBLuNmIlI)
-* Dashboard: [`Dash`](https://dash.boxmineworld.com)
-* Panel: [`Aquí`](https://panel.boxmineworld.com)
-* Dudas sobre el Host: [`Discord`](https://discord.gg/84qsr4v)
-* Canal de WhatsApp: [`Aquí`](https://whatsapp.com/channel/0029Va71C1q2UPBOICnxu83r)
-
-</details>
-
----
-
-### **`✦ AKIRAX ✦`**
-
-<a
-href="https://home.akirax.net"><img src="https://raw.githubusercontent.com/The-King-Destroy/Adiciones/main/Contenido/1748713078525.jpeg" height="125px"></a>
-
-<details>
-<summary><b> ❒ Servidor Akirax</b></summary>
-
-* Dashboard : [`Dash`](https://home.akirax.net)
-* Panel : [`Panel`](https://console.akirax.net)
-* Canal de WhatsApp : [`Aqui`](https://whatsapp.com/channel/0029VbBCchVDJ6H6prNYfz2z)
-* Grupo Oficial : [`Aquí`](https://chat.whatsapp.com/JxSZTFJN9J20TnsH7KsKTA)
-
+* WhatsApp: [`Aquí`](https://wa.me/51901019299)
+* Correo: [`Aquí`](angelithoxyz@gmail.com)
 </details>
 
 ---
