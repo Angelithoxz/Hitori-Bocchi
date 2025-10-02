@@ -1,20 +1,25 @@
-
 import speed from 'performance-now'
-import { spawn, exec, execSync } from 'child_process'
 
 let handler = async (m, { conn }) => {
-         let timestamp = speed();
-         let latensi = speed() - timestamp;
-         exec(`neofetch --stdout`, (error, stdout, stderr) => {
-          let child = stdout.toString("utf-8");
-          let ssd = child.replace(/Memory:/, "Ram:");
+  let timestamp = speed()
+  let latensi = speed() - timestamp
 
-          conn.reply(m.chat, `*Pong* ✦ ${latensi.toFixed(4)} ms`, m, rcanal);
-            });
+  let txt = `
+┏━━━━━━━━━━━━━━┓
+┃   ✦ 𝑷𝑰𝑵𝑮 𝑻𝑬𝑺𝑻 ✦
+┗━━━━━━━━━━━━━━┛
+
+☆ 𝑷𝒐𝒏𝒈: *${latensi.toFixed(4)} ms* ⚡
+♥︎ 𝑬𝒔𝒕𝒂𝒃𝒍𝒆: ✓
+☆━━━━━━━━━━━━☆
+`.trim()
+
+  conn.reply(m.chat, txt, m, rcanal)
 }
+
 handler.help = ['ping']
 handler.tags = ['info']
-handler.command = ['ping', 'p']
+handler.command = ['ping','p']
 handler.register = true
 //handler.estrellas = 2;
 
