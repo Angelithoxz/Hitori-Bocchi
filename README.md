@@ -1,256 +1,186 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Bienvenidos%20-%20Bocchi%20Bot%20💛&fontSize=30&fontColor=FFFFFF&animation=fadeIn" width="100%"/> 
+<h1 align="center">✦ Yυƙι Sυσυ ✦</h1>
 
-![Bienvenida Épica](https://github.com/WillZek/WillZek/blob/main/Crow.svg)
-
-> **`🪩 Versión Actual: 2.5.0`**  
-
-<a
-href="https://github.com/WillZek/CrowBot-ST/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/WillZek/CrowBot-ST?color=yellow&style=flat-square"></a>
-<a href="https://github.com/Angelithoxz/Bocchi-Hitori/watchers"><img title="espectadores" src="https://img.shields.io/github/watchers/Angelithoxz/Bocchi-Hitori?label=Espectadores&style=social"></a>
-
+<img src= "https://files.catbox.moe/om9jai.jpg">
 </p>
 
-___
-
-# **`📩 Donaciones`**
-
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/starcoreNinoPina)
-[![Donen Pijes](https://img.shields.io/badge/Donar-E4405F?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/crowclub#pageMessageModal)
-
-
-___
-
-
-## 💛 **`C R O W - B O T`**    
-
-![Menú Principal](https://files.catbox.moe/v8q8y2.jpg)
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>   
-
-<a href="https://github.com/WillZek/CrowBot-ST"><img src="https://cardivo.vercel.app/api?name=CrowBot&repo=CrowBot-ST&description=Hola+Soy+CrowBot+Disfruta+del+Bot+De+WhatsApp.&image=https://telegra.ph/file/b346b44893d4613a72f98.jpg/revision/latest?cb=20200606024545&usqp=CAU&usqp=CAU&backgroundColor=%23ecf0f1&instagram=crowbot_wa&whatsapp=50557865603&tiktok=crow_legendario_bs&pattern=leaf&colorPattern=%23eaeaea" /><a>
-
- <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=85&pause=2000&color=FFD200FF&chrome=true&width=1000&height=200&lines=💛+ WillZek+Lanzó;🍷La+Version+2.5.0;Disfruta+Del+Bot+🎩" alt="Typing SVG" /></a>
-
-
-<!-- RAINBOW LINE BOT -->
-<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
-
-## 🍷 REDES OFICIALES 
-
-[![Web](https://img.shields.io/badge/Web_Oficial-36DFFF?style=for-the-badge&logo=vercel&logoColor=white)](https://crow-bot-dashboard.vercel.app/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](maito:ninopina10@gmail.com)
-[![XDjajaj](https://img.shields.io/badge/Github-333522?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WillZek)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/crowbot_wa)
-[![Patreon](https://img.shields.io/badge/Patreon-6C6C6C?style=for-the-badge&logo=patreon&logoColor=white)](https://nohay.com)
-[![Facebook Pijes](https://img.shields.io/badge/Facebook-3D9FFF?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/profile.php?id=61570569047747)
-[![Accounts](https://img.shields.io/badge/CUENTAS-000000%7D?style=for-the-badger&logo=biolink&logoColor=white)](https://www.atom.bio/crowbot-ofc)
-
-
-<a href="#"><img title="CrowBot" src="https://img.shields.io/badge/CROWBOT💛 | WILLZEK 💛 | MOON FORCE 💛-blue?colorA=%#4651a6FF&colorB=%23ff0000&style=for-the-badge"></a>
-</p>
-
-<!-- RAINBOW LINE BOT -->
-<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
-
-
-### **`🎩 INFORMACION IMPORTANTE`**
-
-![Menu Secundario](https://files.catbox.moe/ugr9af.jpg)
-
-> Enlaces Oficiales De CrowBot
-
-### **`🔗 OBTEN LOS ENLACES`**
+### *`❕️ Información importante`*
+Este proyecto **no está afiliado de ninguna manera** con `WhatsApp`, `Inc. WhatsApp` es una marca registrada de `WhatsApp LLC`, y este bot es un **desarrollo independiente** que **no tiene ninguna relación oficial con la compañía**.
 
 <details>
- <summary><b> 👉 Haz Click Aqui </b></summary>
+<summary><b> ➮ Descripción</b></summary>
 
-| APP | TIPO | ENLACE |
-|------|-------------|-------|
-| **WhatsApp** | 𝐂𝐚𝐧𝐚𝐥 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 | [¡Click aquí!](https://whatsapp.com/channel/0029Vb1AFK6HbFV9kaB3b13W) |
-| **WhatsApp** | 𝐆𝐫𝐮𝐩𝐨 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 | [¡Click aquí!](https://chat.whatsapp.com/B7POPrlJiZf7UWHJKvzVkx) |
-| **WhatsApp** | 𝐂𝐨𝐦𝐮𝐧𝐢𝐝𝐚𝐝 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 | [¡Click aquí!](https://chat.whatsapp.com/B85dNp4WfzsDeDz8OFgvhx) |
-| **Dashboard** | 𝐒𝐢𝐭𝐢𝐨𝐖𝐞𝐛 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 | [¡Click Aquí!](https://crowbot-web.vercel.app/) |
-| **Terminos** | 𝐓𝐞𝐫𝐦𝐢𝐧𝐨𝐬 𝐃𝐞𝐥𝐚 𝐖𝐞𝐛 | [¡Click Aquí!](https://github.com/WillZek/WillZek/blob/main/TyCW.md) |
+Yuki Bot es un bot de WhatsApp multifuncional basado en `baileys`. Este bot ofrece una variedad de características para mejorar tu experiencia en WhatsApp.
 
+#### Características
+Configuración avanzada de grupos 
+Bienvenidas personalizadas  
+Herramientas útiles  
+Juegos RPG (Gacha y Economía)  
+Funciones de Inteligencia Artificial  
+Descargas y búsquedas multi-plataforma  
+Sub-Bots (JadiBot)  
+Extensiones adicionales
 </details>
 
-___
+---
 
-### **`🔱 CARACTERÍSTICAS`**
-<details>
- <summary><b> <img src="https://i.pinimg.com/originals/73/69/6e/73696e022df7cd5cb3d999c6875361dd.gif" alt="Características" width="42" height="42"> Funciones de CrowBot (toca)</b></summary>
-
-> Bot en desarrollo si presenta alguna falla reportar al creador para darle una solución óptima.
-
-- [x] Interacción con voz y texto
-- [x] Configuración de grupo
-- [x] antidelete, antilink, antispam, etc
-- [x] Bienvenida personalizada
-- [x] Juegos, tictactoe, mate, etc
-- [x] Chatbot (simsimi)
-- [x] Chatbot (autoresponder)
-- [x] Crear sticker de image/video/gif/url
-- [x] SubBot (Jadibot)
-- [x]    Buscador Google
-- [x] Juego RPG
-- [ ] Personalizar imagen del menú
-- [x] Descarga de música y video De YT
-- [ ] Otros
-
-</details>
-
-___
-
-### **`👑 INFORMACION CONTACTOS`**
-
-#### **`Owner: WillZek 🤴`**
-> **`Developed By: Moon Force`**
-
-#### **`CONTACTOS 💻`**
-<p>
-
+### **`✧ Click en la imagen para descargar termux ✧`**
 <a
-href="https://wa.me/50557865603?text="><img src="https://files.catbox.moe/44q2o7.jpg" height="125px"></a>
+href="https://www.mediafire.com/file/wkinzgpb0tdx5qh/com.termux_1022.apk/file"><img src="https://qu.ax/finc.jpg" height="125px"></a> 
 
+### **`➮ Instalación por termux`**
 <details>
-<summary><b> 📞 Toca Aqui</b></summary>
+<summary><b>✰ Instalación Manual</b></summary>
 
-- **Propietario:** [`Aquí`](https:/Wa.me/50557865603)
-- **Github:** [`Aqui`](https://github.com/WillZek)
-- **Instagram:** [`Aqui`](https://www.instagram.com/pina_dzn)
-- **Correo:** [`Aqui`](ninopina10@gmail.com)
-
-</details>
-
-<!-- RAINBOW LINE BOT -->
-<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
-
-### **`🖤 TERMUX INFORMACIÓN`**
-
-> [!IMPORTANT]
-> **CrowBot No Recibe Mucho Mantenimiento En Termux**
-
-> [!TIP]
-> **Puedes Utilizar Servidores Para Instalar A CrowBot o Compra Tu [Token](https://crow-bot-dashboard.vercel.app/) En La Pagina Oficial De CrowBot!**
-
-
-#### **`🌠 Click en la imagen para obtener termux`**
-<a
-href="https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.a"><img src="https://qu.ax/finc.jpg" height="125px"></a>
-
-<div align=>
-
-#### **`🚩Instalar Por Termux🚩`**
-
-<details>
- <summary><b> 👉 Haga Click para los ver Comandos</b></summary>
-
-#### **🪄 `Instalación manual por termux`**
-> copie y peguen en termux uno por uno 
+> *Comandos para instalar de forma manual*
 ```bash
 termux-setup-storage
 ```
-
 ```bash
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
-
 ```bash
-git clone https://github.com/WillZek/CrowBot-ST && cd CrowBot-ST
+git clone https://github.com/The-King-Destroy/YukiBot-MD && cd YukiBot-MD
 ```
-
 ```bash
-yarn install && npm install
+yarn install
 ```
-
+```bash
+npm install
+```
 ```bash
 npm start
 ```
-> Si aparece (Y/I/N/O/D/Z) [default=N] ? use la letra "y" + "ENTER" para continuar con la instalación.
+> *Si aparece **(Y/I/N/O/D/Z) [default=N] ?** use la letra **"y"** y luego **"ENTER"** para continuar con la instalación.*
+</details>
 
-> **Si después de poner el numero de WhatsApp, y sale letras en roja no se preocupe es normal**
+<details>
+  <summary><b>🜸 Comandos para mantener más tiempo activo el Bot</b></summary>
 
-> [**`CrowBot Archivos`**](https://github.com/WillZek/CrowBot-ST/archive/refs/heads/master.zip)
+> *Ejecutar estos comandos dentro de la carpeta YukiBot-MD*
+```bash
+termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
+``` 
+#### Opciones Disponibles
+> *Esto eliminará todo el historial que hayas establecido con PM2:*
+```bash 
+pm2 delete index
+``` 
+> *Si tienes cerrado Termux y quiere ver de nuevo la ejecución use:*
+```bash 
+pm2 logs 
+``` 
+> *Si desea detener la ejecución de Termux use:*
+```bash 
+pm2 stop index
+``` 
+> *Si desea iniciar de nuevo la ejecución de Termux use:*
+```bash 
+pm2 start index
+```
+---- 
+### En caso de detenerse
+> _Si despues que ya instalastes el bot y termux te salta en blanco, se fue tu internet o reiniciaste tu celular, solo realizaras estos pasos:_
+```bash
+cd && cd YukiBot-MD && npm start
+```
+----
+### Obtener nuevo código QR 
+> *Detén el bot, haz click en el símbolo (ctrl) [default=z] usar la letra "z" + "ENTER" hasta que salga algo verdes similar a: `YukiBot-MD $`*
+> **Escribe los siguientes comandos uno x uno :**
+```bash 
+cd && cd YukiBot-MD && rm -rf sessions/Principal && npm run qr
+```
+----
+### Obtener nuevo código de teléfono 
+```bash 
+cd && cd YukiBot-MD && rm -rf sessions/Principal && npm run code
+```
+</details>
+
+<details>
+<summary><b>❀ Actualizar YukiBot-MD</b></summary>
+
+> **Utiliza esta opción únicamente si deseas actualizar a la última versión de YukiBot. Hemos implementado un método ingenioso mediante comandos para realizar la actualización, pero ten en cuenta que al usarla se eliminarán todos los archivos de la versión actual y se reemplazarán con los de la nueva versión. Solo se conservará la base de datos, por lo que será necesario volver a vincular el Bot.**  
+
+**Comandos para actualizar YukiBot-MD de forma automática**
+
+```bash
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/DevAlexJs/SakuraBot-MD/master/termux.sh | bash 
+```
+**✰ Volverte owner del Bot**
+
+*Si después de instalar el bot e iniciar la sesión (deseas poner tu número es la lista de owner pon este comando:*
+
+```bash
+cd && cd YukiBot-MD && nano settings.js
+```
+#### Para que no pierda su progreso en YukiBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
+> *Estos comandos solo funcionan para TERMUX, REPLIT, LINUX*
+</details>
+
+---
+### **`➮ Enlaces útiles`**
+
+<details>
+<summary><b> 🜸 Enlaces Oficiales </b></summary>
+
+ * Canal Oficial  [`¡Click aquí!`](https://whatsapp.com/channel/0029Vb64nWqLo4hb8cuxe23n)
+* Grupo Oficial [`¡Click aquí!`](https://chat.whatsapp.com/HaKf6ezcwdbGzmH782eBal)
+* Comunidad Oficial [`¡Click aquí!`](https://chat.whatsapp.com/BgIcqDiiTEmL5ChFpq76y0?mode=ems_copy_t)
+</details>
+
+<details>
+<summary><b> ✰ Contáctos</b></summary>
+
+* WhatsApp: [`Aquí`](https://wa.me/522202410659)
+* Correo: [`Aquí`](thekingdestroy507@gmail.com)
+</details>
+
+---
+
+### **` °¤ BOXMINEWORLD ¤°`**
+
+<a href="https://boxmineworld.com">
+  <img width="125px" src="https://i.imgur.com/allAyd4.png"/>
+</a>
+
+<details>
+ <summary><b> ❒ Servidor BoxMineWorld</b></summary>
+
+* Pagina Oficial: [`Boxmineworld`](https://boxmineworld.com)
+* Tutorial - Crear cuenta en la Dashboard: [`Dashboard`](https://www.youtube.com/watch?v=ZAwBLuNmIlI)
+* Dashboard: [`Dash`](https://dash.boxmineworld.com)
+* Panel: [`Aquí`](https://panel.boxmineworld.com)
+* Dudas sobre el Host: [`Discord`](https://discord.gg/84qsr4v)
+* Canal de WhatsApp: [`Aquí`](https://whatsapp.com/channel/0029Va71C1q2UPBOICnxu83r)
 
 </details>
 
 ---
 
-### 🍭 `HOSTINGS INFORMACION`
-
-![Informacion](https://qu.ax/LgBRM.jpg)
-
-<details>
- <summary><b> 🎩 𝗛𝗢𝗦𝗧𝗜𝗡𝗚𝗦 𝗗𝗘 𝗖𝗔𝗟𝗜𝗗𝗔𝗗</b></summary>
-
-###  **`🍬 LUMINARY'S - HOSTING`**
-<a href="https://dash.luminarys.shop/home"><img src="https://qu.ax/aHudo.jpg" height="145px"></a>
-
-<details>
- <summary><b>🍂 Servidor Luminary's - Host</b></summary>
-
-* Dashboard: [`Dash`](https://dash.luminarys.shop)
-* Panel: [`Panel`](https://panel.luminarys.shop)
-* Grupo: [`Aquí`](https://chat.whatsapp.com/L29DaYhqORo2wBEF95j9D3)
-* Contacto(s): [`Vegeta`](https://wa.me/526633900512) / [`Marcos`](https://wa.me/525653326435) / [`Adrian`](https://wa.me/595976126756)
-
-</details>
-
-#### **`☁️ SKY ULTRA PLUS`**
+### **`✦ AKIRAX ✦`**
 
 <a
-href="https://dash.skyultraplus.com/home"><img src="https://qu.ax/zFzXF.png" height="125px"></a>
+href="https://home.akirax.net"><img src="https://raw.githubusercontent.com/The-King-Destroy/Adiciones/main/Contenido/1748713078525.jpeg" height="125px"></a>
 
 <details>
- <summary><b> 🌹 servidor Sky</b></summary>
+<summary><b> ❒ Servidor Akirax</b></summary>
 
-* Dashboard  [`Dash`](https://dash.skyultraplus.com)
-* Panel [`Panel`](https://panel.skyultraplus.com)
-* Canal de WhatsApp [`Canal sky`](https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g)
-* Comunidad  [`Aquí`](https://chat.whatsapp.com/JPwcXvPEUwlEOyjI3BpYys)
-* Contacto(s) [`Gata Dios`](https://wa.me/message/B3KTM5XN2JMRD1) / [`Russell`](https://api.whatsapp.com/send/?phone=15167096032&text&type=phone_number&app_absent=0) / [`elrebelde21`](https://facebook.com/elrebelde21)
-* Discord [`SkyUltraPlus`](https://discord.gg/Ph4eWsZ8)
+* Dashboard : [`Dash`](https://home.akirax.net)
+* Panel : [`Panel`](https://console.akirax.net)
+* Canal de WhatsApp : [`Aqui`](https://whatsapp.com/channel/0029VbBCchVDJ6H6prNYfz2z)
+* Grupo Oficial : [`Aquí`](https://chat.whatsapp.com/JxSZTFJN9J20TnsH7KsKTA)
 
 </details>
 
-<!-- RAINBOW LINE BOT -->
-<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
+---
 
+### **`❀ Colaboradores`**
+<a href="https://github.com/The-King-Destroy/Yuki_Suou-Bot/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=The-King-Destroy/Yuki_Suou-Bot" /> 
+</a>
 
-#### **`🌌 Hosting Py:`**
-
+### **`ᥫ᭡ Propietario`**
 <a
-href="https://dash.hostingpy.shop/"><img src="https://files.catbox.moe/lr92z2.jpg" height="125px"></a>
-
-<details>
- <summary><b> 🌠 Servidor HostingPy</b></summary>
-
-* Dashboard  [`Dash`](https://dash.hostingpy.shop)
-* Panel [`Panel`](https://panel.hostingpy.shop)
-* Canal de WhatsApp [`Canal Hosting`](https://whatsapp.com/channel/0029Vak4e1R4NVifmh8Tvi3q)
-* Comunidad  [`Aquí`](https://chat.whatsapp.com/HT9YFbWTuqO0DQrq6Xxhvx)
-* Contacto(s) [`Soporte`](https://wa.me/595976126756)
-
-> **`Usa Mi Código de Referencia`**:
- LgZKVYOK
-
-<!-- RAINBOW LINE BOT -->
-<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
-
-
-</details>
-
-</details>
-
-## 🐦‍🔥 **`COLABORADORES`**
-<a href="https://github.com/The-king-Destroy"><img src="https://github.com/The-king-Destroy.png" width="100" height="100" alt="The-king-Destroy"/></a>
-<a href="https://github.com/Manuel12yt"><img src="https://github.com/Manuel12yt.png" width="100" height="100" alt="Manuel12yt"/></a>
-
-
-## **`💛 𝘊𝘙𝘌𝘈𝘋𝘖𝘙`**
-<a
-href="https://github.com/WillZek"><img src="https://github.com/WillZek.png" width="130" height="130" alt="WillZek"/></a>
-
-</details>
-
-> **[✎ P᥆ᥕᥱrᥱძ ᑲᥡ m᥆᥆ᥒ𝖿᥆rᥴᥱ 𝗍ᥱᥲm ❀](https://whatsapp.com/channel/0029VaxkClI1NCrW4BX5rn3g)**
+href="https://github.com/Angelithoxz"><img src="https://github.com/Angelithoxz.png" width="130" height="130" alt="Angelithoxyz"/></a>
