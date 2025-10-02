@@ -1,43 +1,80 @@
-// By GataDios
-import ws from 'ws';
+import ws from 'ws'
 
-let handler = async (m, { conn, usedPrefix, args }) => {
-if (!args[0] && !m.quoted) return m.reply(`⚠️ Menciona el número de un bot o responde al mensaje de un bot.\n> Ejemplo: *${usedPrefix}setprimary @0*`);
+const handler = async (m, { conn, usedPrefix }) => {
+  const activos = [...new Set(
+    global.conns
+      .filter(sock => sock.user && sock.ws.socket && sock.ws.socket.readyState !== ws.CLOSED)
+      .map(sock => sock.user.jid)
+  )]
 
-const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
+  if (global.conn?.user?.jid && !activos.includes(global.conn.user.jid)) {
+    activos.push(global.conn.user.jid)
+  }
 
-let botJid;
-let selectedBot;
+  const chat = global.db.data.chats[m.chat]
+  const mencionados = m.mentionedJid || []
+  const who = mencionados[0] ? mencionados[0] : m.quoted ? m.quoted.sender : false
 
-if (m.mentionedJid && m.mentionedJid.length > 0) {
-botJid = m.mentionedJid[0];
-} else if (m.quoted) {
-botJid = m.quoted.sender;
-} else {
-botJid = args[0].replace(/[^0-9]/g, '') + '@s.whatsapp.net';
-} if (botJid === conn.user.jid || botJid === global.conn.user.jid) {
-selectedBot = conn;
-} else {
-selectedBot = users.find(conn => conn.user.jid === botJid);
+  if (!who) {
+    return conn.reply(
+      m.chat,
+      `┏━━━━━━━━━━━━━━━━━━━┓\n` +
+      `   ✦❀ 𝐑𝐲𝐮𝐬𝐞𝐢 𝐂𝐥𝐮𝐛 𝐈𝐧𝐟𝐢𝐧𝐢𝐭𝐲 ❀✦\n` +
+      `┗━━━━━━━━━━━━━━━━━━━┛\n\n` +
+      ` Por favor, menciona a un *Socket activo* para asignarlo como Bot primario del grupo.`,
+      m
+    )
+  }
+
+  if (!activos.includes(who)) {
+    return conn.reply(
+      m.chat,
+      `┏━━━━━━━━━━━━━━━━━━━┓\n` +
+      `✦ꕥ El usuario mencionado no pertenece a los *Sockets de ${global.botname || "Ryusei Bot"}*.\n` +
+      `┗━━━━━━━━━━━━━━━━━━━┛`,
+      m
+    )
+  }
+
+  if (chat.primaryBot === who) {
+    return conn.reply(
+      m.chat,
+      `┏━━━━━━━━━━━━━━━━━━━┓\n` +
+      `✦ꕥ @${who.split`@`[0]} ya está configurado como Bot primario en este grupo.\n` +
+      `┗━━━━━━━━━━━━━━━━━━━┛`,
+      m,
+      { mentions: [who] }
+    )
+  }
+
+  try {
+    chat.primaryBot = who
+    conn.reply(
+      m.chat,
+      `┏━━━━━━━━━━━━━━━━━━━┓\n` +
+      `✦❀ Se ha asignado a @${who.split`@`[0]} como *Bot primario* del grupo.\n` +
+      `> Ahora todos los comandos serán administrados por este Bot.\n` +
+      `┗━━━━━━━━━━━━━━━━━━━┛\n\n` +
+      `✦❀ 𝐑𝐲𝐮𝐬𝐞𝐢 𝐂𝐥𝐮𝐛 𝐈𝐧𝐟𝐢𝐧𝐢𝐭𝐲 ❀✦`,
+      m,
+      { mentions: [who] }
+    )
+  } catch (e) {
+    conn.reply(
+      m.chat,
+      `┏━━━━━━━━━━━━━━━━━━━┓\n` +
+      `⚠︎ Ha ocurrido un error inesperado.\n` +
+      `> Usa *${usedPrefix}report* para informarlo.\n\n${e.message}\n` +
+      `┗━━━━━━━━━━━━━━━━━━━┛`,
+      m
+    )
+  }
 }
 
-if (!selectedBot) {
-return conn.reply(m.chat, `⚠️ @${botJid.split`@`[0]} no es un bot de la misma sessión, verifica los bots conectados, usando *#bots*.`, m, { mentions: [botJid] });
-}
+handler.help = ['setprimary']
+handler.tags = ['grupo']
+handler.command = ['setprimary']
+handler.group = true
+handler.admin = true
 
-let chat = global.db.data.chats[m.chat];
-if (chat.primaryBot === botJid) {
-return conn.reply(m.chat, `⚠️ @${botJid.split`@`[0]} ya es el bot primario.`, m, { mentions: [botJid] });
-}
-
-chat.primaryBot = botJid;
-conn.sendMessage(m.chat, { text: `✅ El bot @${botJid.split('@')[0]} ha sido establecido como primario en este grupo. Los demás bots no responderán aquí.`, mentions: [botJid]}, { quoted: m });
-};
-
-handler.help = ['setprimary <@tag>'];
-handler.tags = ['jadibot'];
-handler.command = ['setprimary'];
-handler.group = true;
-handler.admin = true;
-
-export default handler;
+export default handler
