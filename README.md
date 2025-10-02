@@ -1,6 +1,6 @@
 <h1 align="center">✦ Bocchi Hitori✦</h1>
 
-<img src= "https://files.catbox.moe/om9jai.jpg">
+<img src= "https://cdn.stellarwa.xyz/files/1759422914512.jpeg">
 </p>
 
 ### *`❕️ Información importante`*
