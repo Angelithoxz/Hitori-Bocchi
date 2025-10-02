@@ -14,7 +14,7 @@ let handler = async (m, { conn }) => {
 ☆━━━━━━━━━━━━☆
 `.trim()
 
-  conn.reply(m.chat, txt, m, rcanal)
+  conn.reply(m.chat, txt, m)
 }
 
 handler.help = ['ping']
