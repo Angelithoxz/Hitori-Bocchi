@@ -50,8 +50,12 @@ global.catalogo = fs.readFileSync('./media/catalogo.jpg')
 global.repobot = 'https://github.com/'
 global.grupo = ''
 global.gsupport = ''
-global.channel = ''
-global.insta = ''
+global.channel = '120363374826926142@newsletter'
+
+// Lista de canales (para joinChannels en index.js)
+global.ch = {
+  main: '120363374826926142@newsletter',
+}
 
 //*─ׄ─ׅ─⭒─ׄ─ ESTILO MENSAJE ─ׄ─⭒─*
 global.estilo = { 
