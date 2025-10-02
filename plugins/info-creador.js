@@ -23,7 +23,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 showAdAttribution: true,
                 title: '✦ Hola, soy ᴀɴɢᴇʟɪᴛʜᴏxʏᴢ ♥︎☆',
                 body: 'Creador oficial',
-                thumbnailUrl: 'https://cdnmega.vercel.app/media/c4hhgZgD@fGOHhRAM1CD-3_cpAQk-Q86yQnQLGHYKZ1M0P_heI9s',
+                thumbnailUrl: 'https://cdn.stellarwa.xyz/files/1759421407773.jpeg',
                 sourceUrl: 'https://ryusei-web.vercel.app/',
                 mediaType: 1,
                 renderLargerThumbnail: true
