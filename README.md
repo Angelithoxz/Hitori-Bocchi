@@ -177,8 +177,8 @@ href="https://home.akirax.net"><img src="https://raw.githubusercontent.com/The-K
 ---
 
 ### **`❀ Colaboradores`**
-<a href="https://github.com/The-King-Destroy/Yuki_Suou-Bot/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=The-King-Destroy/Yuki_Suou-Bot" /> 
+<a href="https://github.com/Angelithoxz/Hitori-Bocchi/contributors">
+<img src="https://contrib.rocks/image?repo=Angelithoxz/Hitori-Bocchi" /> 
 </a>
 
 ### **`ᥫ᭡ Propietario`**
