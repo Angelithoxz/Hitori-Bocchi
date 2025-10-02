@@ -50,8 +50,15 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   for (let tag in tags) {
     text += defaultMenu.header.replace(/%category/g, tags[tag])
     for (let plugin of Object.values(global.plugins).filter(p => p.tags && p.tags.includes(tag))) {
-      for (let cmd of plugin.command) {
-        text += defaultMenu.body.replace(/%cmd/g, usedPrefix + cmd)
+      let commands = plugin.command
+      if (!commands) continue
+      if (!Array.isArray(commands)) commands = [commands]
+      for (let cmd of commands) {
+        if (typeof cmd === 'string') {
+          text += defaultMenu.body.replace(/%cmd/g, usedPrefix + cmd)
+        } else if (cmd instanceof RegExp) {
+          text += defaultMenu.body.replace(/%cmd/g, usedPrefix + cmd.source)
+        }
       }
     }
     text += defaultMenu.footer
