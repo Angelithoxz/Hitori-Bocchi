@@ -29,37 +29,36 @@ console.log(`Error : ${e}`)
 
 let pp = ''
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-//let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
+//let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://cdn.stellarwa.xyz/files/1759427300472.jpeg')
 
 //creador y otros
-global.creador = 'Wa.me/50557865603'
-global.botreal = `${(conn.user.jid == global.conn.user.jid ? 'Oficial' : 'Sub-Bot')}`
+global.creador = 'Wa.me/51901019299'
+global.botreal = `${(conn.user.jid == global.conn.user.jid ? 'Owner/Principal' : 'Sub-Bot')}`
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/50557865603'
+global.asistencia = 'Wa.me/51901019299'
 
 //Reacciones De Comandos.!
-global.rwait = '🕒'
-global.done = '✅'
-global.error = '✖️'
+global.rwait = '☆'
+global.done = '♥︎'
+global.error = '✦'
 
 //Emojis determinado de CrowBot
-global.emoji = '🚩'
-global.emoji2 = '💛'
-global.emoji3 = '🌠'
-global.emoji4 = '🍭'
-global.emoji5 = '🔱'
+global.emoji = '✦'
+global.emoji2 = '♥︎'
+global.emoji3 = '☆'
+global.emoji4 = '✦'
+global.emoji5 = '♥︎'
 global.emojis = [emoji, emoji2, emoji3, emoji4, emoji5].getRandom()
 
 //mensaje en espera
-global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
+global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
 
 //Enlaces
-var facebook = 'https://www.facebook.com/profile.php?id=61574203539793'  
-var github = 'https://github.com/WillZek/CrowBot-ST' 
-var web = 'https://crowbot-web.vercel.app/' 
-let instagram = 'https://www.instagram.com/crowbot_wa'
+var github = 'https://github.com/Angelithoxz/Hitori-Bocchi' 
+var web = 'https://ryusei-web.vercel.app/' 
+let instagram = 'https://www.instagram.com/angelitho.xyz'
 
-global.redes = [facebook, github, web, instagram].getRandom()
+global.redes = [github, web, instagram].getRandom()
 
 //Imagen
 let category = "imagen"
