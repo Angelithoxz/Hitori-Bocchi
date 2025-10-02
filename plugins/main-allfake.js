@@ -42,7 +42,7 @@ global.rwait = '☆'
 global.done = '♥︎'
 global.error = '✦'
 
-//Emojis determinado de CrowBot
+//Emojis determinado
 global.emoji = '✦'
 global.emoji2 = '♥︎'
 global.emoji3 = '☆'
@@ -80,20 +80,20 @@ global.taguser = '@' + m.sender.split("@s.whatsapp.net")
 var more = String.fromCharCode(8206)
 global.readMore = more.repeat(850)
 
-global.authsticker = `┊🤖 Bot Ofc\n┊↳ ${wm}\n\n┊👑 Usuario\n┊↳ @${conn.getName(m.sender)}\n`;
+global.authsticker = `┊✦ 𝗕𝗼𝗰𝗰𝗵𝗶 𝗪𝗮-𝗕𝗼𝘁\n┊↳ ${wm}\n\n┊☆ Usuario\n┊↳ @${conn.getName(m.sender)}\n`;
 
-global.packsticker = `┊ 🔱 ᴛᴇᴀᴍ ᴍᴏᴏɴ ғᴏʀᴄᴇ\n↳https://crowbot-web.vercel.app/\n\n┊ 🎩 ɪɴғᴏʀᴍᴀᴄɪᴏɴ ᴏғᴄ\n↳https://github.com/WillZek/CrowBot-ST`
+global.packsticker = `┊ ✦ 𝗥𝘆𝘂𝘀𝗲𝗶 𝗖𝗹𝘂𝗯\n↳https://ryusei-web.vercel.app/\n\n┊ ♥︎ ɪɴғᴏʀᴍᴀᴄɪᴏɴ ᴏғᴄ\n↳https://www.instagram.com/angelitho.xyz`
 
 //Fakes
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=50557865603:50557865603\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363374826926142@newsletter', newsletterName: "ᰔᩚ . ˚ Cһᥲᥒᥒᥱᥣ 〢Tᥱᥲm M᥆᥆ᥒ F᥆rᥴᥱ  ֹ ☆˒˒", serverMessageId: -1 }
+global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363374826926142@newsletter', newsletterName: "ᰔᩚ . ˚ 𝗿𝘆𝘂𝘀𝗲𝗶 𝗰𝗹𝘂𝗯 𝗶𝗻𝗳𝗶𝗻𝗶𝘁𝘆  ֹ ☆˒˒", serverMessageId: -1 }
 }}, { quoted: m }
 
 //Id Channel
 global.idchannel = '120363381910502266@newsletter'
 global.canalIdM = ["120363374826926142@newsletter", "120363374826926142@newsletter"]
-global.canalNombreM = ["✯ 𝐂𝐫𝐨𝐰𝐁𝐨𝐭 - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✯", "⏤͟͟͞͞☆ 𝐂𝐫𝐨𝐰𝐁𝐨𝐭 𝐓𝐞𝐬𝐭 『𝐏𝐨𝐝𝐜𝐚𝐬𝐭』"]
+global.canalNombreM = ["=͟͟͞𝐑𝐲𝐮𝐬𝐞𝐢 𝐂𝐥𝐮𝐛 𝐈𝐧𝐟𝐢𝐧𝐢𝐭𝐲 - 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥⏤͟͟͞͞★", "=͟͟͞𝐑𝐲𝐮𝐬𝐞𝐢 𝐂𝐥𝐮𝐛 𝐈𝐧𝐟𝐢𝐧𝐢𝐭𝐲 - 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥⏤͟͟͞͞★"]
 global.channelRD = await getRandomChannel()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: textbot, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icons, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
