@@ -47,12 +47,11 @@ global.adios = fs.readFileSync('./media/adios.jpg')
 global.catalogo = fs.readFileSync('./media/catalogo.jpg')
 
 //*─ׄ─ׅ─⭒─ׄ─ LINKS ─ׄ─⭒─*
-global.repobot = 'https://github.com/'
-global.grupo = ''
-global.gsupport = ''
+global.repobot = 'https://github.com/Angelithoxz/Hitori-Bocchi'
+global.grupo = 'https://chat.whatsapp.com/LEiFW5QqrPE1xYYCqyZeqq'
+global.gsupport = 'https://chat.whatsapp.com/Hk7LRLL4uJP5pHYAaxusLn'
 global.channel = '120363374826926142@newsletter'
 
-// Lista de canales (para joinChannels en index.js)
 global.ch = {
   main: '120363374826926142@newsletter',
 }
