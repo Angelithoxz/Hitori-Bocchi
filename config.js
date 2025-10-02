@@ -9,11 +9,11 @@ import moment from 'moment-timezone'
 
 //*─ׄ─ׅ─⭒─ׄ─ INFO PROPIETARIO ─ׄ─⭒─*
 global.owner = [
-   ['51901019299', '✦ 𝐀𝐧𝐠𝐞𝐥𝐢𝐭𝐡𝐨𝐱𝐲𝐳 ✦', true],
+   '51901019299'
 ]
 
 global.creadorbot = [
-   ['51901019299', '✦ 𝐀𝐧𝐠𝐞𝐥𝐢𝐭𝐡𝐨𝐱𝐲𝐳 ✦', true],
+   '51901019299'
 ]
 
 global.mods = ['']
