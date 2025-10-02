@@ -9,13 +9,13 @@ let handler = async (m, { conn }) => {
           let child = stdout.toString("utf-8");
           let ssd = child.replace(/Memory:/, "Ram:");
 
-          conn.reply(m.chat, `*Pong* 🏓 ${latensi.toFixed(4)} ms`, m, rcanal);
+          conn.reply(m.chat, `*Pong* ✦ ${latensi.toFixed(4)} ms`, m, rcanal);
             });
 }
 handler.help = ['ping']
 handler.tags = ['info']
 handler.command = ['ping', 'p']
 handler.register = true
-handler.estrellas = 2;
+//handler.estrellas = 2;
 
 export default handler
